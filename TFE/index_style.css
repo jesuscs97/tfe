@@ -119,6 +119,43 @@
 	}
 
 .informacion{
+	padding: 20px;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font: arial;
+	position: absolute;
+	top: 30%;
+	right: 50%;
+	transform: translateX(50%) translateY(50%);
+}
+
+.informacion2{
+
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font: arial;
+	position: absolute;
+	top: 10%;
+	right: 50%;
+	transform: translateX(50%) translateY(50%);
+}
+
+.informacion3{
+	padding: 20px;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font: arial;
+	position: absolute;
+	top: 55%;
+	right: 50%;
+	transform: translateX(50%) translateY(50%);
+}
+
+.informacion4{
+
 	color: white;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -180,3 +217,4 @@
 	right: 40%;
 	left: 40%;
 }
+
