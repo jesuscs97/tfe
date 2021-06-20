@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Contacto</title>
+    <link rel="stylesheet" type="text/css" href="prueba.css">
+    <style>
+        body {
+            background-color: #fdfdfd;
+        }
+    </style> 
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>GENHIDRO <img src="mundo.png" width="25" height="25"></h1>
+				
+			</div>
+		</div>
+</header>
+    <div id="container-login">
+        <form method="POST" action="maquinaria2.0.php" >
+            <div id="title">
+                 Formulario Maquinas
+            </div>
+            <div class="input">
+                <input id="marca" placeholder="marca" name="marca" type="text" required class="validate" autocomplete="off">
+            </div>
+            <div class="clearfix"></div>
+            <div class="input">
+                <input id="modelo" placeholder="modelo" name="modelo" type="text" required class="validate" autocomplete="off">
+            </div>
+            <div class="clearfix"></div>
+            <div class="input">
+				<input id="N_Referencia" placeholder="N_Referencia" name="N_Referencia" type="text" required class="validate" autocomplete="off">
+            </div>
+            <input type="submit" value="Enviar" id="Enviar">
+    </div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="cambiodatos.html">Añadir Datos</a>
+                <a href="crearinforme.html">Crear Informe</a>
+                <a href="tiempo.html">Tiempo</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="maquinaria.html">Maquinaria</a>
+                <a href="personal.html">Personal</a>
+                <a href="sensores.html">Sensores</a>
+                <a href="ayuda.html">Ayuda</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+</body>
+</html>
